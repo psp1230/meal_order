@@ -1,0 +1,471 @@
+body {
+    font-family: 'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: "Microsoft JhengHei", "Helvetica", Arial, Helvetica, 微軟正黑體, sans-serif !important;
+}
+
+li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-weight: lighter;
+    padding: 0 20px;
+}
+
+.cool-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e2543a;
+    transition: width .3s;
+}
+
+.cool-link:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.GeneratedMarquee {
+    color: #5b5b5b;
+    background-color: #f8d844;
+    padding: 0;
+}
+
+.GeneratedMarquee span {
+    font-family: Microsoft JhengHei;
+    font-size: 17px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.carouseltext1 {
+    font-family: NotoSansCJKtc;
+    font-size: 40px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 2.4px;
+    margin-left: 46.7%;
+    color: #e2543a;
+    margin-top: 35px;
+}
+
+.carouseltext2 {
+    font-family: NotoSansCJKtc;
+    font-size: 17px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 1.92px;
+    margin-left: 46.7%;
+    color: #450d00;
+}
+
+.hvr-float-shadow :hover {
+    transform: translateY(-3px);
+}
+
+.hvr-float-shadow span:hover {
+    transform: translateY(0);
+}
+
+.hvr-float-shadow2 span:hover {
+    color: #e2543a;
+}
+
+.v-slide-group-text {
+    font-family: NotoSansCJKtc;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.96px;
+    color: #450d00;
+}
+
+.v-slide-group-text2 {
+    font-family: NotoSansCJKtc;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.76;
+    letter-spacing: 0.68px;
+    text-align: left;
+    color: #565656;
+}
+
+.v-slide-group-shape {
+    width: 150px;
+    height: 2px;
+    margin-left: 11%;
+    background-image: linear-gradient(to right, #ffffff, #450d00, #ffffff);
+}
+
+.carousel2-div {
+    width: 50%;
+    height: 23.7%;
+    background-color: #ffffff;
+    position: absolute;
+}
+
+.carousel2-div2 {
+    width: 50%;
+    height: 76.3%;
+    background-color: #e2543a;
+    position: absolute;
+    margin-top: 7.7%;
+}
+
+.carousel2-text {
+    font-family: NotoSansCJKtc;
+    font-size: 50px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.4px;
+    color: #e2543a;
+    margin-top: 6%;
+    margin-left: 7%;
+}
+
+.carousel2-text2 {
+    font-family: NotoSansCJKtc;
+    font-size: 60px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: -1.4px;
+    color: #ffffff;
+    margin-left: 7%;
+}
+
+.carousel2-text3 {
+    font-family: NotoSansCJKtc;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: left;
+    margin-left: 7%;
+    color: #ffffff;
+}
+
+/****************現做便當*******************/
+
+.one {
+    width: 100%;
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+}
+
+.one_1 {
+    align-items: flex-end;
+    margin-bottom: -20px;
+    padding: 0px;
+}
+
+.one_1 span {
+    position: relative;
+    bottom: 11px;
+    font-family: NotoSansCJKtc;
+}
+
+.one_1_span {
+    font-size: 25px;
+    position: relative;
+    top: 35px;
+}
+
+.one_1 img {
+    margin-left: 10px;
+    font-family: NotoSansCJKtc;
+    margin-right: 3px;
+}
+
+.on1_1_img2 {
+    /* margin-left: 1.3%!important; */
+    margin-right: 10px !important;
+}
+
+.one_2 {
+    display: inline-block;
+    background-color: #a5a5a5;
+    width: 30px;
+    height: 3px;
+    transform: rotate(-70deg) translate(-6px, -7px);
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: -20px;
+}
+
+.one_h1 {
+    font-family: "微軟正黑體", 'NotoSansCJKtc' !important;
+    font-size: 60px;
+    font-weight: 900 !important;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #e2543a;
+    box-sizing: content-box;
+    display: inline;
+}
+
+.one_text {
+    font-family: NotoSansCJKtc;
+    font-size: 20.6px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 4.86;
+    letter-spacing: 0.82px;
+    text-align: left;
+    color: #a5a5a5;
+}
+
+.one_div {
+    font-family: NotoSansCJKtc;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #acacac;
+}
+
+.title_text {
+    background-color: #e2543a;
+    font-family: NotoSansCJKtc;
+    font-size: 24px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.three_text-label {
+    font-family: NotoSansCJKtc;
+    font-size: 17px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #acacac;
+}
+
+/*******************************/
+
+/***************好評回饋***********************/
+
+.evaluation {
+    text-align: center;
+}
+
+.evaluation h2 {
+    font-family: NotoSansCJKtc;
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 2.4px;
+    text-align: center;
+    color: #e2543a;
+}
+
+.evaluation p {
+    font-family: NotoSansCJKtc;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #acacac;
+}
+
+.evaluation_two {
+    text-align: center;
+    font-family: NotoSansCJKtc;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 0.96px;
+    color: #000000;
+}
+
+/***************footer***************************/
+
+.footer_div {
+    font-family: NotoSansCJKtc !important;
+    background-color: #999;
+    height: 468px;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    padding-top: 43px;
+}
+
+.footer_div a {
+    text-decoration: none;
+}
+
+.footer_div h2 {
+    font-family: NotoSansCJKtc !important;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.7;
+    letter-spacing: 1.08px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_div_1 img {
+    margin-bottom: 23px;
+    margin-left: -10px;
+}
+
+.footer_div_1 p {
+    font-family: NotoSansCJKtc !important;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    margin-bottom: 8px;
+    margin-top: 20px;
+    line-height: 4.87px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_div_1 span {
+    font-family: NotoSansCJKtc !important;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: 0.52px;
+    line-height: 5.62px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_div_2, .footer_div_3, .footer_div_4 {
+    margin-left: 52px;
+}
+
+/****foot2*****/
+
+.footer_div_2 p {
+    font-family: NotoSansCJKtc !important;
+    margin-top: 5px;
+    font-family: NotoSansCJKtc;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_div_2_Slash {
+    background-color: #fff;
+    width: 17px;
+    height: 2px;
+    transform: rotate(-80deg) translate(-6px, -7px);
+    display: flex;
+    margin-left: 5px;
+    margin-top: 8px;
+    position: relative;
+}
+
+.footer_div_2_div {
+    display: flex;
+}
+
+.footer_div_2 span {
+    font-family: NotoSansCJKtc !important;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.footer_div_2_span2 {
+    margin-left: -10px;
+}
+
+.footer_div_3 p, .footer_div_4 p {
+    font-family: NotoSansCJKtc !important;
+    margin-top: 5px;
+    font-family: NotoSansCJKtc;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: 0.6px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.footer_line {
+    position: relative;
+    top: 280px;
+    left: 319px;
+}
+
+.footer_ig {
+    position: relative;
+    top: 280px;
+    left: 328px;
+}
+
+.footer_facebook {
+    position: relative;
+    top: 218px;
+}
+
+.btn_X {
+    position: absolute;
+    right: 0px;
+    font-size: 30px;
+}
+
+.btn_X span {
+    color: #fff;
+}

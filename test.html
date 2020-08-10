@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background: #0b0b0b;
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+
+    li {
+        display: inline-block;
+    }
+
+    li a {
+        text-decoration: none;
+        display: inline-block;
+        color: #fff;
+        font-weight: lighter;
+        padding: 0 20px;
+    }
+
+    .cool-link::after {
+        content: '';
+        display: block;
+        width: 0;
+        height: 2px;
+        background: #fff;
+        transition: width .3s;
+    }
+
+    .cool-link:hover::after {
+        width: 100%;
+        transition: width .3s;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">關於甘擔<br><span
+                        style="color: #acacac; font-size: 12px;">About Us</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">線上訂餐<br><span
+                        style="color: #acacac; font-size: 12px;">Bento Order</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">訂餐須知<br><span
+                        style="color: #acacac; font-size: 12px;">Bento Notice</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">生鮮嚴選<br><span
+                        style="color: #acacac; font-size: 12px;">GD-Mart</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">最新消息<br><span
+                        style="color: #acacac; font-size: 12px;">News</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">好評回饋<br><span
+                        style="color: #acacac; font-size: 12px;">Feedback</span></span>
+            </a>
+        </li>
+        <li>
+            <a href="/" class="cool-link" style="text-align:center">
+                <span style="color: #e2543a; font-size: 14px;">常見問題<br><span
+                        style="color: #acacac; font-size: 12px;">Q&A</span></span>
+            </a>
+        </li>
+    </div>
+</body>
+
+</html>
